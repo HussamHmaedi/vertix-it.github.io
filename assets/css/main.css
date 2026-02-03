@@ -1299,19 +1299,20 @@ input, select, textarea {
     padding: 0;
 }
 
-#header .logo img {
-    width: 360px;      /* حجم الشعار الأساسي */
-    max-width: 90vw;   /* يحميه على الشاشات الصغيرة */
+
+
+#header .logo {
+    border: none;          /* إزالة الدائرة نهائياً */
+    width: auto;
     height: auto;
-    display: block;
 }
 
-
-
 #header .logo img {
-	max-width: 100%;
-	max-height: 100%;
-	object-fit: contain;
+    width: 320px;          /* حجم الشعار الأساسي */
+    max-width: 90%;        /* يتجاوب مع الشاشات الصغيرة */
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -1703,6 +1704,7 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 	background-color: #2196f3 !important;
 	color: #ffffff !important;
 }
+
 
 
 
