@@ -1300,7 +1300,7 @@ input, select, textarea {
 }
 
 #header .logo img {
-    width: 280px;      /* حجم الشعار الأساسي */
+    width: 360px;      /* حجم الشعار الأساسي */
     max-width: 90vw;   /* يحميه على الشاشات الصغيرة */
     height: auto;
     display: block;
@@ -1703,6 +1703,7 @@ h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
 	background-color: #2196f3 !important;
 	color: #ffffff !important;
 }
+
 
 
 
